@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs / IDE
+.env
+.venv/
+.vscode/
+.idea/
+
+# PyInstaller outputs
+build/
+dist/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binaries (we don’t want to push these)
+*.dll
+*.exe
